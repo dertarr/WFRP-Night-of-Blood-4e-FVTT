@@ -14,31 +14,38 @@
     "requires": [
       {
         "id": "lib-wrapper",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "betterroofs",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "wall-height",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "levels",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "token-attacher",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "ambientdoors",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "tokenmagic",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
