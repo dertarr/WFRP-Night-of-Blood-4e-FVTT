@@ -13,31 +13,31 @@
     ],
     "requires": [
       {
-        "name": "lib-wrapper",
+        "id": "lib-wrapper",
         "type": "module"
       },
       {
-        "name": "betterroofs",
+        "id": "betterroofs",
         "type": "module"
       },
       {
-        "name": "wall-height",
+        "id": "wall-height",
         "type": "module"
       },
       {
-        "name": "levels",
+        "id": "levels",
         "type": "module"
       },
       {
-        "name": "token-attacher",
+        "id": "token-attacher",
         "type": "module"
       },
       {
-        "name": "ambientdoors",
+        "id": "ambientdoors",
         "type": "module"
       },
       {
-        "name": "tokenmagic",
+        "id": "tokenmagic",
         "type": "module"
       }
     ]
