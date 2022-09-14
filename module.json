@@ -99,7 +99,8 @@
   "languages": [
     {
       "lang": "en",
-      "name": "English"
+      "name": "English",
+      "path": "lang/en.json"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
