@@ -4,35 +4,47 @@
   "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players. Now updated to include multi-level scenes",
   "version": "3.0",
   "author": "Stuart Kerrigan",
-  "dependencies": [
-    {
-      "name": "lib-wrapper"
-    },
-    {
-      "name": "betterroofs"
-    },
-    {
-      "name": "wall-height"
-    },
-    {
-      "name": "levels"
-    },
-    {
-      "name": "token-attacher"
-    },
-    {
-      "name": "ambientdoors"
-    },
-    {
-      "name": "tokenmagic"
-    }
-  ],
+  "relationships": {  
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "name": "lib-wrapper",
+        "type": "module"
+      },
+      {
+        "name": "betterroofs",
+        "type": "module"
+      },
+      {
+        "name": "wall-height",
+        "type": "module"
+      },
+      {
+        "name": "levels",
+        "type": "module"
+      },
+      {
+        "name": "token-attacher",
+        "type": "module"
+      },
+      {
+        "name": "ambientdoors",
+        "type": "module"
+      },
+      {
+        "name": "tokenmagic",
+        "type": "module"
+      }
+    ]
+  },
   "esmodules": [],
   "scripts": [
     "init.js"
-  ],
-  "systems": [
-    "wfrp4e"
   ],
   "styles": [
     "./styles.css"
@@ -70,10 +82,13 @@
   "flags": {
     "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodActors", "wfrp4e-night-of-blood.NightOfBloodScenes", "wfrp4e-night-of-blood.NightOfBloodJournal"]
   },
-  "languages": [
-    "en"
-  ],
   "minimumCoreVersion": "0.9",
+  "compatibleCoreVersion": 9,
+  "compatibility": {
+    "minimum": 9,
+    "verified": 9,
+    "maximum": 10
+  },  
   "manifest": "https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
   "download": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/archive/master.zip",
   "url": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/"
