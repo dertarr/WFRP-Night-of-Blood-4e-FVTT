@@ -19,37 +19,69 @@
       {
         "id": "lib-wrapper",
         "type": "module",
-        "compatibility": {}
+        "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-lib-wrapper/master/module.json",
+        "compatibility":
+        {
+            "minimum": "1.12.9",
+            "verified": "1.12.9"
+        }
       },
       {
         "id": "betterroofs",
         "type": "module",
-        "compatibility": {}
+        "manifest": "https://raw.githubusercontent.com/theripper93/Better-Roofs/main/module.json",
+        "compatibility":
+        {
+            "minimum": "1.6.9",
+            "verified": "1.6.9"
+        }
       },
       {
         "id": "wall-height",
         "type": "module",
-        "compatibility": {}
+        "manifest": "https://github.com/theripper93/wall-height/blob/main/module.json",
+        "compatibility":
+        {
+            "minimum": "4.7.4",
+            "verified": "4.7.4"
+        }
       },
       {
         "id": "levels",
         "type": "module",
-        "compatibility": {}
+        "manifest": "https://raw.githubusercontent.com/theripper93/Levels/v9/module.json",
+        "compatibility":
+        {
+            "minimum": "3.1.3",
+            "verified": "3.1.3"
+        }
       },
       {
         "id": "token-attacher",
         "type": "module",
+        "manifest": "https://raw.githubusercontent.com/KayelGee/token-attacher/v4.4.5/module.json",
         "compatibility": {}
       },
       {
         "id": "ambientdoors",
         "type": "module",
-        "compatibility": {}
+        "manifest": "https://raw.githubusercontent.com/EndlesNights/ambientdoors/master/module.json",
+        "compatibility":
+        {
+            "minimum": "2.3.0",
+            "verified": "2.3.0"
+        }
       },
       {
         "id": "tokenmagic",
         "type": "module",
-        "compatibility": {}
+        "manifest": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/module.json",
+        "compatibility":
+        {
+            "minimum": "0.6.1",
+            "verified": "0.6.1"
+        }
+        }
       }
     ]
   },
