@@ -4,7 +4,9 @@
   "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players. Now updated to include multi-level scenes",
   "version": "3.0",
   "authors": [
-      "name": "Stuart Kerrigan"
+      {
+          "name": "Stuart Kerrigan"
+      }
   ],
   "relationships": {
     "systems": [
